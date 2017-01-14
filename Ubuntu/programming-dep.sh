@@ -11,6 +11,7 @@ sudo apt-get install -y build-essential
 sudo apt-get install -y curl
 sudo apt-get install -y git
 sudo apt-get install -y gedit
+sudo apt-get install -y clang
 
 #java
 sudo apt-get install -y default-jre default-jdk
