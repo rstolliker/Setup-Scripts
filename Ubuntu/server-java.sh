@@ -19,6 +19,9 @@ echo "export CLASSPATH=$CLASSPATH:/usr/share/java/mysql.jar # Add mysql driver t
 # technically optional, security
 #sudo mysql_secure_installation
 
+#apache
+sudo apt-get install -y apache2
+
 #tomcat
 sudo apt-get install -y tomcat8 tomcat8-docs tomcat8-admin tomcat8-examples
 #note that admin must still be manually configured
