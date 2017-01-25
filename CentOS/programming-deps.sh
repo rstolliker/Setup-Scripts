@@ -9,7 +9,7 @@ sudo yum -y update
 
 # devtools
 sudo yum -y groupinstall 'Development Tools'
-sudo yum -y install wget
+#sudo yum -y install wget
 sudo yum -y install vim-enhanced
 
 
