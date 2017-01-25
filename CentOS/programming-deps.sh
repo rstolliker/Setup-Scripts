@@ -28,6 +28,7 @@ sudo yum -y install java-1.8.0-openjdk*
 mkdir ~/.bin
 wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
 cp lein ~/.bin/
+chmod a+x ~/.bin/lein
 lein
 
 # haskell
