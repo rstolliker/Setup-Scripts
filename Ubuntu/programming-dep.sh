@@ -6,6 +6,9 @@ sudo apt-get update
 #vim
 sudo apt-get install -y vim vim-gtk3
 
+#emacs
+sudo apt-get install -y emacs
+
 # tools
 sudo apt-get install -y build-essential
 sudo apt-get install -y curl
@@ -31,3 +34,8 @@ echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.li
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2EE0EA64E40A89B84B2DF73499E82A75642AC823
 sudo apt-get update
 sudo apt-get install sbt
+
+#clojure (leiningen)
+wget https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+mkdir ~/bin
+cp lein ~/bin
